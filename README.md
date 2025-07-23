@@ -1,6 +1,7 @@
 #  Blog API with FastAPI
 
-A simple and scalable RESTful API for managing blog posts and categories built with **FastAPI**, **SQLAlchemy**, and **SQLite**. This API supports creating, reading, and updating blog posts with category management.
+A simple and scalable RESTful API for managing blog posts and categories built with **FastAPI**, **SQLAlchemy**, and **SQLite**. This API supports creating, reading, and updating blog posts with category management. 
+The main.py file contains the API for managing blog posts and Ques2.py consists of 2nd Question of the assignment. 
 
 ---
 

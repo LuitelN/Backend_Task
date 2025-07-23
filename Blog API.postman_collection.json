@@ -1,0 +1,66 @@
+{
+	"info": {
+		"_postman_id": "8988ef69-1f8f-4415-b0b7-7da9f51f6e43",
+		"name": "Blog API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "46930916",
+		"_collection_link": "https://niranjanluitel.postman.co/workspace/Niranjan-Luitel's-Workspace~55337a0f-974a-4dde-8edc-ef133caae7eb/collection/46930916-8988ef69-1f8f-4415-b0b7-7da9f51f6e43?action=share&source=collection_link&creator=46930916"
+	},
+	"item": [
+		{
+			"name": "Get all blogs.",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Get blog by Id.",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Post blog.",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"My First Blog\",\r\n  \"description\": \"This is a test blog.\",\r\n  \"category_name\": \"Tech\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/blogs\n\n\n",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"blogs\n\n\n"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update blog.",
+			"request": {
+				"method": "PUT",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

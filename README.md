@@ -54,15 +54,17 @@ The API will be live at:
 ## API Endpoints
 
 ###  Get All Blogs  
-`GET /blogs`  
+`GET http://127.0.0.1:8000/blogs
+`  
 Returns a list of all blogs.
 
 ### Get Blog by ID  
-`GET /blogs/{blog_id}`  
+`GET http://127.0.0.1:8000/blogs/1`  
 Returns a specific blog with its category.
 
 ### Create Blog  
-`POST /blogs`  
+`POST http://127.0.0.1:8000/blogs
+`  
 Creates a blog. If the category does not exist, it is automatically created.
 
 **Sample Body**
@@ -75,7 +77,7 @@ Creates a blog. If the category does not exist, it is automatically created.
 ```
 
 ### Update Blog  
-`PUT /blogs/{blog_id}`  
+`PUT http://127.0.0.1:8000/blogs/1`  
 Updates a blog and reassigns a category if needed.
 
 ---
@@ -108,8 +110,3 @@ You can test the API using Postman:
  [GitHub Profile](https://github.com/LuitelN)
 
 ---
-
-## 📜 License
-
-This project is licensed under the MIT License.  
-See `LICENSE` file for more information.

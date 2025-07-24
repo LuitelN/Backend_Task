@@ -104,6 +104,9 @@ You can test the API using Postman:
 [View Collection in Postman](https://niranjanluitel.postman.co/workspace/Niranjan-Luitel's-Workspace~55337a0f-974a-4dde-8edc-ef133caae7eb/collection/46930916-8988ef69-1f8f-4415-b0b7-7da9f51f6e43?action=share&source=collection_link&creator=46930916)
 
 ---
+#  Question 2
+
+For the second question on the assignment, I used the concept of 2 sums using Hashing to solve the problem. This simple Python script finds a pair of numbers in a list that add up to a given target sum.
 
 ## Author
 
